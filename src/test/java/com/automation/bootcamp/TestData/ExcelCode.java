@@ -27,7 +27,7 @@ public class ExcelCode {
 	
 
 	public static Object[][] readDataFromExcelforTutorialsNinja(String sheetName) throws Exception {
-		ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\test\\java\\com\\automation\\framworks\\practise\\TestData\\ExcelData.xlsx");
+		ip = new FileInputStream(System.getProperty("user.dir")+ "\\src\\test\\java\\com\\automation\\bootcamp\\TestData\\ExcelData.xlsx");
 		workbook = new XSSFWorkbook(ip);
 		sheet = workbook.getSheet(sheetName);
 

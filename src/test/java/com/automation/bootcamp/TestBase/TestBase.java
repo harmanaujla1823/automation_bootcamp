@@ -24,12 +24,11 @@ public class TestBase {
 	
 	public TestBase() throws Exception {
 		prop = new Properties();
-		ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\com\\qa\\practise\\config\\config.properties");
+		ip = new FileInputStream(System.getProperty("user.dir") + "\\src\\main\\java\\com\\automation\\bootcamp\\config\\config.properties");
 		prop.load(ip);
-		System.out.println(prop.getProperty("url"));
 		
 		dataprop = new Properties();
-		ip = new FileInputStream("E:\\Ecliplse_AutomationWorkspace\\automation.frameworks.practise\\src\\test\\java\\com\\automation\\framworks\\practise\\TestData\\testData.properties");
+		ip = new FileInputStream("E:\\Ecliplse_AutomationWorkspace\\AUTOMATION_BOOTCAMP\\src\\test\\java\\com\\automation\\bootcamp\\TestData\\testData.properties");
 		dataprop.load(ip);
 	}
 	

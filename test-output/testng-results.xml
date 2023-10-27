@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-10-27T00:17:31 EDT" name="Suite" finished-at="2023-10-27T00:20:07 EDT" duration-ms="156035">
+    <groups>
+    </groups>
+    <test started-at="2023-10-27T00:17:31 EDT" name="Test" finished-at="2023-10-27T00:20:07 EDT" duration-ms="156035">
+      <class name="com.automation.bootcamp.TestCases.LoginTest">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:32 EDT" name="loginSetup" finished-at="2023-10-27T00:17:49 EDT" duration-ms="16973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:49 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:17:50 EDT" duration-ms="1086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:50 EDT" name="tearDown" finished-at="2023-10-27T00:17:50 EDT" duration-ms="280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:50 EDT" name="loginSetup" finished-at="2023-10-27T00:17:59 EDT" duration-ms="8662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:59 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:00 EDT" duration-ms="1111" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:00 EDT" name="tearDown" finished-at="2023-10-27T00:18:01 EDT" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:01 EDT" name="loginSetup" finished-at="2023-10-27T00:18:12 EDT" duration-ms="10900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:12 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:13 EDT" duration-ms="1135" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:13 EDT" name="tearDown" finished-at="2023-10-27T00:18:13 EDT" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:13 EDT" name="loginSetup" finished-at="2023-10-27T00:18:20 EDT" duration-ms="6112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:20 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:21 EDT" duration-ms="1121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:21 EDT" name="tearDown" finished-at="2023-10-27T00:18:21 EDT" duration-ms="444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:21 EDT" name="loginSetup" finished-at="2023-10-27T00:18:28 EDT" duration-ms="6416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:28 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:29 EDT" duration-ms="1092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda4@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:29 EDT" name="tearDown" finished-at="2023-10-27T00:18:29 EDT" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:29 EDT" name="loginSetup" finished-at="2023-10-27T00:18:34 EDT" duration-ms="5389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:34 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:35 EDT" duration-ms="1131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:35 EDT" name="tearDown" finished-at="2023-10-27T00:18:36 EDT" duration-ms="477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:36 EDT" name="loginSetup" finished-at="2023-10-27T00:18:42 EDT" duration-ms="6416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:42 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:43 EDT" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[seleniumpanda6@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Selenium@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidLoginCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:43 EDT" name="tearDown" finished-at="2023-10-27T00:18:44 EDT" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:44 EDT" name="loginSetup" finished-at="2023-10-27T00:18:49 EDT" duration-ms="5397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:49 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2023-10-27T00:18:51 EDT" duration-ms="1511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:51 EDT" name="tearDown" finished-at="2023-10-27T00:18:51 EDT" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:51 EDT" name="loginSetup" finished-at="2023-10-27T00:18:56 EDT" duration-ms="5085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:56 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2023-10-27T00:18:57 EDT" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidEmailValidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:57 EDT" name="tearDown" finished-at="2023-10-27T00:18:58 EDT" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:58 EDT" name="loginSetup" finished-at="2023-10-27T00:19:04 EDT" duration-ms="6668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:04 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2023-10-27T00:19:05 EDT" duration-ms="834" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithInvalidCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:05 EDT" name="tearDown" finished-at="2023-10-27T00:19:05 EDT" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:05 EDT" name="loginSetup" finished-at="2023-10-27T00:19:12 EDT" duration-ms="7144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSetup -->
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:12 EDT" name="verifyLoginWithNoCredentials" finished-at="2023-10-27T00:19:13 EDT" duration-ms="694" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginWithNoCredentials -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:13 EDT" name="tearDown" finished-at="2023-10-27T00:19:14 EDT" duration-ms="502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.bootcamp.TestCases.LoginTest -->
+      <class name="com.automation.bootcamp.TestCases.SearchProductTest">
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:14 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:18 EDT" duration-ms="4666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:18 EDT" name="verifySearchWithValidProduct" finished-at="2023-10-27T00:19:20 EDT" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithValidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:20 EDT" name="tearDown" finished-at="2023-10-27T00:19:21 EDT" duration-ms="302" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:21 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:25 EDT" duration-ms="4534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithInalidProduct()[pri:2, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:25 EDT" name="verifySearchWithInalidProduct" finished-at="2023-10-27T00:19:26 EDT" duration-ms="1282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithInalidProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:27 EDT" name="tearDown" finished-at="2023-10-27T00:19:27 EDT" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:27 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:31 EDT" duration-ms="4247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProductSetup -->
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:31 EDT" name="verifySearchWithNoProduct" finished-at="2023-10-27T00:19:32 EDT" depends-on-methods="com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct" duration-ms="1312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchWithNoProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:32 EDT" name="tearDown" finished-at="2023-10-27T00:19:33 EDT" duration-ms="893" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.bootcamp.TestCases.SearchProductTest -->
+      <class name="com.automation.bootcamp.TestCases.RegisterTest">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:33 EDT" name="registerSetup" finished-at="2023-10-27T00:19:40 EDT" duration-ms="6798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:40 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2023-10-27T00:19:42 EDT" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithMandatoryDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:42 EDT" name="tearDown" finished-at="2023-10-27T00:19:42 EDT" duration-ms="367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:42 EDT" name="registerSetup" finished-at="2023-10-27T00:19:49 EDT" duration-ms="7133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:49 EDT" name="verifyRegisterWithAllDetails" finished-at="2023-10-27T00:19:50 EDT" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithAllDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:50 EDT" name="tearDown" finished-at="2023-10-27T00:19:51 EDT" duration-ms="593" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:51 EDT" name="registerSetup" finished-at="2023-10-27T00:19:58 EDT" duration-ms="7193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:58 EDT" name="verifyRegisterWithExistingEmail" finished-at="2023-10-27T00:20:00 EDT" duration-ms="1244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithExistingEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:00 EDT" name="tearDown" finished-at="2023-10-27T00:20:00 EDT" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:00 EDT" name="registerSetup" finished-at="2023-10-27T00:20:06 EDT" duration-ms="6273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerSetup -->
+        <test-method signature="verifyRegisterWithNoDetails()[pri:4, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:06 EDT" name="verifyRegisterWithNoDetails" finished-at="2023-10-27T00:20:07 EDT" duration-ms="716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegisterWithNoDetails -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:07 EDT" name="tearDown" finished-at="2023-10-27T00:20:07 EDT" duration-ms="209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.bootcamp.TestCases.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

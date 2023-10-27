@@ -27,7 +27,6 @@ public class LandingPage {
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		//PageFactory.initElements(driver, LandingPage.class);
 	}
 	
 	public void clickOnMyAccount() {
