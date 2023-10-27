@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+<testng-results ignored="0" total="18" passed="16" failed="1" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-27T00:17:31 EDT" name="Suite" finished-at="2023-10-27T00:20:07 EDT" duration-ms="156035">
+  <suite started-at="2023-10-27T01:09:44 EDT" name="Suite" finished-at="2023-10-27T01:11:54 EDT" duration-ms="130399">
     <groups>
     </groups>
-    <test started-at="2023-10-27T00:17:31 EDT" name="Test" finished-at="2023-10-27T00:20:07 EDT" duration-ms="156035">
+    <test started-at="2023-10-27T01:09:44 EDT" name="Test" finished-at="2023-10-27T01:11:54 EDT" duration-ms="130399">
       <class name="com.automation.bootcamp.TestCases.LoginTest">
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:32 EDT" name="loginSetup" finished-at="2023-10-27T00:17:49 EDT" duration-ms="16973" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:09:45 EDT" name="loginSetup" finished-at="2023-10-27T01:09:52 EDT" duration-ms="7394" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:49 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:17:50 EDT" duration-ms="1086" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:09:52 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:09:54 EDT" duration-ms="1156" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:50 EDT" name="tearDown" finished-at="2023-10-27T00:17:50 EDT" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:09:54 EDT" name="tearDown" finished-at="2023-10-27T01:09:54 EDT" duration-ms="361" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:50 EDT" name="loginSetup" finished-at="2023-10-27T00:17:59 EDT" duration-ms="8662" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:09:54 EDT" name="loginSetup" finished-at="2023-10-27T01:10:00 EDT" duration-ms="6205" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:17:59 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:00 EDT" duration-ms="1111" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:00 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:01 EDT" duration-ms="1105" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,15 +51,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:00 EDT" name="tearDown" finished-at="2023-10-27T00:18:01 EDT" duration-ms="615" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:01 EDT" name="tearDown" finished-at="2023-10-27T01:10:02 EDT" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:01 EDT" name="loginSetup" finished-at="2023-10-27T00:18:12 EDT" duration-ms="10900" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:02 EDT" name="loginSetup" finished-at="2023-10-27T01:10:08 EDT" duration-ms="6244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:12 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:13 EDT" duration-ms="1135" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:08 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:09 EDT" duration-ms="1126" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -75,15 +75,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:13 EDT" name="tearDown" finished-at="2023-10-27T00:18:13 EDT" duration-ms="569" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:09 EDT" name="tearDown" finished-at="2023-10-27T01:10:09 EDT" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:13 EDT" name="loginSetup" finished-at="2023-10-27T00:18:20 EDT" duration-ms="6112" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:09 EDT" name="loginSetup" finished-at="2023-10-27T01:10:16 EDT" duration-ms="6268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:20 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:21 EDT" duration-ms="1121" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:16 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:17 EDT" duration-ms="1074" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -99,15 +99,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:21 EDT" name="tearDown" finished-at="2023-10-27T00:18:21 EDT" duration-ms="444" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:17 EDT" name="tearDown" finished-at="2023-10-27T01:10:17 EDT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:21 EDT" name="loginSetup" finished-at="2023-10-27T00:18:28 EDT" duration-ms="6416" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:17 EDT" name="loginSetup" finished-at="2023-10-27T01:10:23 EDT" duration-ms="5868" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:28 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:29 EDT" duration-ms="1092" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:23 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:24 EDT" duration-ms="1023" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -123,15 +123,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:29 EDT" name="tearDown" finished-at="2023-10-27T00:18:29 EDT" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:24 EDT" name="tearDown" finished-at="2023-10-27T01:10:24 EDT" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:29 EDT" name="loginSetup" finished-at="2023-10-27T00:18:34 EDT" duration-ms="5389" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:24 EDT" name="loginSetup" finished-at="2023-10-27T01:10:30 EDT" duration-ms="5382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:34 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:35 EDT" duration-ms="1131" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:30 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:31 EDT" duration-ms="1103" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -147,15 +147,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:35 EDT" name="tearDown" finished-at="2023-10-27T00:18:36 EDT" duration-ms="477" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:31 EDT" name="tearDown" finished-at="2023-10-27T01:10:31 EDT" duration-ms="406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:36 EDT" name="loginSetup" finished-at="2023-10-27T00:18:42 EDT" duration-ms="6416" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:31 EDT" name="loginSetup" finished-at="2023-10-27T01:10:36 EDT" duration-ms="5412" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:42 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T00:18:43 EDT" duration-ms="1079" status="PASS">
+        <test-method signature="verifyLoginWithValidLoginCredentials(java.lang.String,java.lang.String)[pri:1, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:36 EDT" name="verifyLoginWithValidLoginCredentials" data-provider="TN" finished-at="2023-10-27T01:10:37 EDT" duration-ms="1013" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,143 +171,207 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidLoginCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:43 EDT" name="tearDown" finished-at="2023-10-27T00:18:44 EDT" duration-ms="297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:37 EDT" name="tearDown" finished-at="2023-10-27T01:10:38 EDT" duration-ms="305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:44 EDT" name="loginSetup" finished-at="2023-10-27T00:18:49 EDT" duration-ms="5397" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:38 EDT" name="loginSetup" finished-at="2023-10-27T01:10:43 EDT" duration-ms="5587" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:49 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2023-10-27T00:18:51 EDT" duration-ms="1511" status="PASS">
+        <test-method signature="verifyLoginWithValidEmailInvalidPassword()[pri:2, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:43 EDT" name="verifyLoginWithValidEmailInvalidPassword" finished-at="2023-10-27T01:10:44 EDT" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithValidEmailInvalidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:51 EDT" name="tearDown" finished-at="2023-10-27T00:18:51 EDT" duration-ms="639" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:44 EDT" name="tearDown" finished-at="2023-10-27T01:10:44 EDT" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:51 EDT" name="loginSetup" finished-at="2023-10-27T00:18:56 EDT" duration-ms="5085" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:44 EDT" name="loginSetup" finished-at="2023-10-27T01:10:51 EDT" duration-ms="6293" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:56 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2023-10-27T00:18:57 EDT" duration-ms="800" status="PASS">
+        <test-method signature="verifyLoginWithInvalidEmailValidPassword()[pri:3, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:51 EDT" name="verifyLoginWithInvalidEmailValidPassword" finished-at="2023-10-27T01:10:52 EDT" duration-ms="810" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidEmailValidPassword -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:57 EDT" name="tearDown" finished-at="2023-10-27T00:18:58 EDT" duration-ms="428" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:52 EDT" name="tearDown" finished-at="2023-10-27T01:10:52 EDT" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:18:58 EDT" name="loginSetup" finished-at="2023-10-27T00:19:04 EDT" duration-ms="6668" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:10:52 EDT" name="loginSetup" finished-at="2023-10-27T01:11:02 EDT" duration-ms="10577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:04 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2023-10-27T00:19:05 EDT" duration-ms="834" status="PASS">
+        <test-method signature="verifyLoginWithInvalidCredentials()[pri:4, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:11:02 EDT" name="verifyLoginWithInvalidCredentials" finished-at="2023-10-27T01:11:03 EDT" duration-ms="853" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithInvalidCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:05 EDT" name="tearDown" finished-at="2023-10-27T00:19:05 EDT" duration-ms="218" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:11:03 EDT" name="tearDown" finished-at="2023-10-27T01:11:04 EDT" duration-ms="320" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:05 EDT" name="loginSetup" finished-at="2023-10-27T00:19:12 EDT" duration-ms="7144" status="PASS">
+        <test-method is-config="true" signature="loginSetup()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:11:04 EDT" name="loginSetup" finished-at="2023-10-27T01:11:09 EDT" duration-ms="5525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSetup -->
-        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:12 EDT" name="verifyLoginWithNoCredentials" finished-at="2023-10-27T00:19:13 EDT" duration-ms="694" status="PASS">
+        <test-method signature="verifyLoginWithNoCredentials()[pri:5, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:11:09 EDT" name="verifyLoginWithNoCredentials" finished-at="2023-10-27T01:11:10 EDT" duration-ms="553" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginWithNoCredentials -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@5e600dd5]" started-at="2023-10-27T00:19:13 EDT" name="tearDown" finished-at="2023-10-27T00:19:14 EDT" duration-ms="502" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.LoginTest@4a883b15]" started-at="2023-10-27T01:11:10 EDT" name="tearDown" finished-at="2023-10-27T01:11:10 EDT" duration-ms="398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.automation.bootcamp.TestCases.LoginTest -->
       <class name="com.automation.bootcamp.TestCases.SearchProductTest">
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:14 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:18 EDT" duration-ms="4666" status="PASS">
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:42 EDT" name="searchProductSetup" finished-at="2023-10-27T01:11:46 EDT" duration-ms="4066" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:18 EDT" name="verifySearchWithValidProduct" finished-at="2023-10-27T00:19:20 EDT" duration-ms="2087" status="PASS">
+        <test-method signature="verifySearchWithValidProduct()[pri:1, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:46 EDT" name="verifySearchWithValidProduct" finished-at="2023-10-27T01:11:47 EDT" duration-ms="1425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchWithValidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:20 EDT" name="tearDown" finished-at="2023-10-27T00:19:21 EDT" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:47 EDT" name="tearDown" finished-at="2023-10-27T01:11:48 EDT" duration-ms="1087" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:21 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:25 EDT" duration-ms="4534" status="PASS">
+        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:48 EDT" name="searchProductSetup" finished-at="2023-10-27T01:11:52 EDT" duration-ms="3943" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithInalidProduct()[pri:2, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:25 EDT" name="verifySearchWithInalidProduct" finished-at="2023-10-27T00:19:26 EDT" duration-ms="1282" status="PASS">
+        <test-method signature="verifySearchWithInalidProduct()[pri:2, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:52 EDT" name="verifySearchWithInalidProduct" finished-at="2023-10-27T01:11:54 EDT" duration-ms="1412" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct(SearchProductTest.java:41)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchWithInalidProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:27 EDT" name="tearDown" finished-at="2023-10-27T00:19:27 EDT" duration-ms="233" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:54 EDT" name="tearDown" finished-at="2023-10-27T01:11:54 EDT" duration-ms="463" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="searchProductSetup()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:27 EDT" name="searchProductSetup" finished-at="2023-10-27T00:19:31 EDT" duration-ms="4247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProductSetup -->
-        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:31 EDT" name="verifySearchWithNoProduct" finished-at="2023-10-27T00:19:32 EDT" depends-on-methods="com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct" duration-ms="1312" status="PASS">
+        <test-method signature="verifySearchWithNoProduct()[pri:3, instance:com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]" started-at="2023-10-27T01:11:54 EDT" name="verifySearchWithNoProduct" finished-at="2023-10-27T01:11:54 EDT" depends-on-methods="com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithNoProduct() on instance com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e depends on not successfully finished methods 
+[com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct() on instance com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithNoProduct() on instance com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e depends on not successfully finished methods 
+[com.automation.bootcamp.TestCases.SearchProductTest.verifySearchWithInalidProduct() on instance com.automation.bootcamp.TestCases.SearchProductTest@2eae8e6e]
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:156)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchWithNoProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.SearchProductTest@11392934]" started-at="2023-10-27T00:19:32 EDT" name="tearDown" finished-at="2023-10-27T00:19:33 EDT" duration-ms="893" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.automation.bootcamp.TestCases.SearchProductTest -->
       <class name="com.automation.bootcamp.TestCases.RegisterTest">
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:33 EDT" name="registerSetup" finished-at="2023-10-27T00:19:40 EDT" duration-ms="6798" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:10 EDT" name="registerSetup" finished-at="2023-10-27T01:11:17 EDT" duration-ms="6818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:40 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2023-10-27T00:19:42 EDT" duration-ms="1508" status="PASS">
+        <test-method signature="verifyRegisterWithMandatoryDetails()[pri:1, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:17 EDT" name="verifyRegisterWithMandatoryDetails" finished-at="2023-10-27T01:11:19 EDT" duration-ms="1634" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithMandatoryDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:42 EDT" name="tearDown" finished-at="2023-10-27T00:19:42 EDT" duration-ms="367" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:19 EDT" name="tearDown" finished-at="2023-10-27T01:11:19 EDT" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:42 EDT" name="registerSetup" finished-at="2023-10-27T00:19:49 EDT" duration-ms="7133" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:19 EDT" name="registerSetup" finished-at="2023-10-27T01:11:25 EDT" duration-ms="6175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:49 EDT" name="verifyRegisterWithAllDetails" finished-at="2023-10-27T00:19:50 EDT" duration-ms="1495" status="PASS">
+        <test-method signature="verifyRegisterWithAllDetails()[pri:2, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:25 EDT" name="verifyRegisterWithAllDetails" finished-at="2023-10-27T01:11:27 EDT" duration-ms="1685" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithAllDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:50 EDT" name="tearDown" finished-at="2023-10-27T00:19:51 EDT" duration-ms="593" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:27 EDT" name="tearDown" finished-at="2023-10-27T01:11:27 EDT" duration-ms="309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:51 EDT" name="registerSetup" finished-at="2023-10-27T00:19:58 EDT" duration-ms="7193" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:27 EDT" name="registerSetup" finished-at="2023-10-27T01:11:33 EDT" duration-ms="6209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:19:58 EDT" name="verifyRegisterWithExistingEmail" finished-at="2023-10-27T00:20:00 EDT" duration-ms="1244" status="PASS">
+        <test-method signature="verifyRegisterWithExistingEmail()[pri:3, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:33 EDT" name="verifyRegisterWithExistingEmail" finished-at="2023-10-27T01:11:35 EDT" duration-ms="1298" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithExistingEmail -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:00 EDT" name="tearDown" finished-at="2023-10-27T00:20:00 EDT" duration-ms="294" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:35 EDT" name="tearDown" finished-at="2023-10-27T01:11:35 EDT" duration-ms="321" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:00 EDT" name="registerSetup" finished-at="2023-10-27T00:20:06 EDT" duration-ms="6273" status="PASS">
+        <test-method is-config="true" signature="registerSetup()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:35 EDT" name="registerSetup" finished-at="2023-10-27T01:11:41 EDT" duration-ms="5986" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerSetup -->
-        <test-method signature="verifyRegisterWithNoDetails()[pri:4, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:06 EDT" name="verifyRegisterWithNoDetails" finished-at="2023-10-27T00:20:07 EDT" duration-ms="716" status="PASS">
+        <test-method signature="verifyRegisterWithNoDetails()[pri:4, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:41 EDT" name="verifyRegisterWithNoDetails" finished-at="2023-10-27T01:11:41 EDT" duration-ms="654" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRegisterWithNoDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@6892b3b6]" started-at="2023-10-27T00:20:07 EDT" name="tearDown" finished-at="2023-10-27T00:20:07 EDT" duration-ms="209" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.automation.bootcamp.TestCases.RegisterTest@7d0b7e3c]" started-at="2023-10-27T01:11:41 EDT" name="tearDown" finished-at="2023-10-27T01:11:42 EDT" duration-ms="291" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
