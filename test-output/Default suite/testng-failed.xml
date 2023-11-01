@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.bootcamp.TestCases.LoginTest">
+      <class name="com.automation.bootcamp.TestCases.ProductInShoppingCartTest">
         <methods>
-          <include name="loginSetup"/>
-          <include name="verifyLoginWithValidLoginCredentials"/>
+          <include name="registerSetup"/>
+          <include name="verifyProductDisplayOnShoppingCartPage"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- com.automation.bootcamp.TestCases.LoginTest -->
+      </class> <!-- com.automation.bootcamp.TestCases.ProductInShoppingCartTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

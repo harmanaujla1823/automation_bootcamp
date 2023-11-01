@@ -1,6 +1,6 @@
 package com.automation.bootcamp.Pages;
 
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriver; 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -23,6 +23,11 @@ public class LandingPage {
 	
 	@FindBy(xpath = "//button[@class='btn btn-default btn-lg']")
 	private WebElement searchButton;
+	
+	@FindBy (xpath = "/html[1]/body[1]/div[2]/div[1]/div[1]/div[2]/div[1]/div[1]/div[3]/button[1]/span[1]")
+	private WebElement macbookProduct;
+	
+
 	
 	public LandingPage(WebDriver driver) {
 		this.driver = driver;
@@ -61,10 +66,12 @@ public class LandingPage {
 	public SearchPage navigateToSearchPage(String productName) {
 		searchBox.sendKeys(productName);
 		searchButton.click();
-		return new SearchPage(driver);
-		
-		
-		
+		return new SearchPage(driver);		
+	}
+	
+	public SuccessfullyAddedToCartPage selectProduct() {
+		macbookProduct.click();
+		return new SuccessfullyAddedToCartPage(driver);
 	}
 
 }
